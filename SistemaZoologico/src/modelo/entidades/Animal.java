@@ -1,11 +1,10 @@
-/*
- 
-package modelo.entidades;
-
 /**
  *
  * @author MOA
  */
+
+package modelo.entidades;
+
 public class Animal {
     private String especie;
     private String habitat;

@@ -1,13 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package modelo.repositorios;
-
 /**
  *
  * @author MOA
  */
+
+package modelo.repositorios;
 
 import modelo.entidades.Zoologico;
 import java.util.ArrayList;
@@ -16,18 +12,17 @@ import java.util.List;
 public class ZoologicoRepository {
     private final List<Zoologico> zoologicos = new ArrayList<>();
 
+    // Agregar zoologico
     public void agregar(Zoologico z) {
         zoologicos.add(z);
     }
 
-    /**
-     *
-     * @return
-     */
+  // Lista animales*/
     public List<Zoologico> listar() {
         return zoologicos;
     }
 
+    // Eliminar zoologico
     public void eliminar(Zoologico z) {
         zoologicos.remove(z);
     }
