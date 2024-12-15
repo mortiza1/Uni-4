@@ -17,7 +17,7 @@ public class AnimalRepository {
         animales.add(a);
     }
 
-    // Lista animales*/
+    // Lista animales
     public List<Animal> listar() {
         return animales;
     }
