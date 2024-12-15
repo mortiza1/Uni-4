@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AnimalRepository {
-     private final List<Animal> animales = new ArrayList<>();
+     private List<Animal> animales = new ArrayList<>();
 
     // Agregar animal
     public void agregar(Animal a) {

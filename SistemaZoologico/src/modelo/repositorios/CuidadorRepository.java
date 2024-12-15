@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CuidadorRepository {
-    private final List<Cuidador> cuidadores = new ArrayList<>();
+    private List<Cuidador> cuidadores = new ArrayList<>();
   
      // Agregar  cuidador
     public void agregar(Cuidador c) {
