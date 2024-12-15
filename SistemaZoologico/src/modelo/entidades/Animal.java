@@ -17,6 +17,10 @@ public class Animal {
         this.edad = edad;
     }
 
+    public Animal(String especie, int edad, String habitat) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
     public String getEspecie() { return especie; }
     public void setEspecie(String especie) { this.especie = especie; }
     public String getHabitat() { return habitat; }

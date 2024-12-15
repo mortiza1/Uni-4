@@ -22,5 +22,9 @@ public class Cuidador {
     public void setEspecialidad(String especialidad) { this.especialidad = especialidad; }
     public int getAñosExperiencia() { return añosExperiencia; }
     public void setAñosExperiencia(int añosExperiencia) { this.añosExperiencia = añosExperiencia; }
+
+    public AbstractStringBuilder getAniosExperiencia() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }
 
