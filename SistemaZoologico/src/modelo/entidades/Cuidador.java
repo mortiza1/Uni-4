@@ -1,20 +1,19 @@
 
 package modelo.entidades;
-
 /**
  *
  * @author MOA
  */
 public class Cuidador {
-  private String nombre;
+    private String nombre;
     private String especialidad;
     private int añosExperiencia;
 
     // Constructor
-    public Cuidador(String nombre, String especialidad, int aniosExperiencia){
+    public Cuidador(String nombre, String especialidad, int añosExperiencia){
         this.nombre = nombre;
         this.especialidad = especialidad;
-        this.añosExperiencia = aniosExperiencia;
+        this.añosExperiencia = añosExperiencia;
     }
 
     public String getNombre() { return nombre; }
