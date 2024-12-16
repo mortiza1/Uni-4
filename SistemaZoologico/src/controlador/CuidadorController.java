@@ -18,8 +18,8 @@ public class CuidadorController {
             // Datos inválidos
         }
         Cuidador c = new Cuidador(nombre, especialidad, añosExperiencia);
-        repo.agregar(c);
-        return true;
+        repo.agregar(c); // Se delega al repositorio
+        return true; // Operación exitosa
     }
     // Método para listar cuidadores
     public String listarCuidadores() {
@@ -33,7 +33,7 @@ public class CuidadorController {
 
     // Método para eliminar un cuidador
     public boolean eliminarCuidador(Cuidador c) {
-        return repo.listar().contains(cuidador) && repo.eliminar(cuidador);
+        return repo.listar().contains(Cuidador) && repo.eliminar(Cuidador);
     }    
         
 }

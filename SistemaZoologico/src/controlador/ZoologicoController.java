@@ -18,8 +18,8 @@ public class ZoologicoController {
             // Datos inválidos
         }
         Zoologico z = new Zoologico(nombre, ubicacion, nDeAnimales);
-        repo.agregar(z);
-        return true;
+        repo.agregar(z); // Se delega al repositorio
+        return true; // Operación exitosa
     }
     // Método para listar cuidadores
     public String listarZoologicos() {
